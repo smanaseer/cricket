@@ -1,0 +1,9 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r}
+fetch_cricinfo("t20","men","batting")
+
+```
+
