@@ -8,7 +8,7 @@ fetch_cricket_data <- function(matchtype = c("test", "odi", "t20"),
                                view = c("innings", "career"))
 {
   # Check arguments given by user match the type (class?) of the default
-  #arguments of the function.
+  # arguments of the function.
   matchtype <- tolower(matchtype)
   sex <- tolower(sex)
   matchtype <- match.arg(matchtype)
