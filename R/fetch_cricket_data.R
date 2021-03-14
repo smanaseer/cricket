@@ -8,13 +8,13 @@ fetch_cricket_data <- function(matchtype111 = c("test", "odi", "t20"),
                                view = c("innings", "career"))
 {
   # Check arguments given by user match the type (class?) of the default
-  # arguments of the function.
-  #matchtype <- tolower(matchtype)
-  #sex <- tolower(sex)
-  #matchtype <- match.arg(matchtype)
-  #sex <- match.arg(sex)
-  #activity <- match.arg(activity)
-  #view <- match.arg(view)
+  arguments of the function.
+  matchtype <- tolower(matchtype)
+  sex <- tolower(sex)
+  matchtype <- match.arg(matchtype)
+  sex <- match.arg(sex)
+  activity <- match.arg(activity)
+  view <- match.arg(view)
 
   # Set view text.
   view_text <- if (view == "innings") {";view=innings"} else {NULL}
