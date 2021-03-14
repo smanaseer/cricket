@@ -1,7 +1,7 @@
 # Main function to scrape the data from cricinfo
 # Not user-visible. Called by fetch_cricinfo.
 
-fetch_cricket_data <- function(matchtype111 = c("test", "odi", "t20"),
+fetch_cricket_data <- function(matchtype = c("test", "odi", "t20"),
                                sex = c("men", "women"),
                                country = NULL,
                                activity = c("batting", "bowling", "fielding"),
